@@ -1,0 +1,15 @@
+form input{
+    width: 60%;
+    position: relative;
+    right: 0;
+}
+
+button{
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+:is(#recherche, #supprimer):focus{
+    background-color: red;
+
+}

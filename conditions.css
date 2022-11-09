@@ -1,0 +1,22 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+form > div {
+  margin-top: 1rem;
+}
+
+input{
+  justify-content: flex-end;
+}
+
+#input-user{
+  display: flex;
+  justify-content: center;
+}
+
+form button {
+  margin: 1rem auto;
+  width: 10%;
+}
+

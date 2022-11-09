@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f06fa41670.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./conditions.css">
+    <title>EDULAB</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="variables.html">Variables et affectation</a></li>
+          <li><a href="conditions.html">Conditions</a></li>
+          <li class="boucle"><a>Boucle<i class="fa-solid fa-caret-down"></i></a>
+            <ul class="drop-down">
+              <li><a href="for-loop.html">Boucle for</a></li>
+              <li><a href="while.html">Boucle while</a></li>
+              <li><a href="imbriquées.html">Boucles imbriquées</a></li>
+            </ul>
+          </li>
+
+          <li class="chaines"><a>Les chaines<i class="fa-solid fa-caret-down"></i></a>
+            <ul class="drop-down">
+              <li><a href="recherche.html">Recherche et Suppression</a></li>
+              <li><a href="voyelles.html">Nombre de voyelles</a></li>
+            </ul>
+          </li>
+          
+          <li class="Tableaux"><a>Les Tableaux<i class="fa-solid fa-caret-down"></i></a>
+            <ul class="drop-down">
+              <li><a href="tri.html">Tri </a></li>
+              <li><a href="tab-recherche.html">Recherche</a></li>
+            </ul>
+          </li>
+          <li><a href="fonctions.html">Fonctions</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <main>
+        <section class="Enonce">
+          <h2>Valider une date</h2>
+          <h4>Enoncé</h4>
+          <p>
+            Ecrire un script qui permet de saisir les trois champs d'une date
+            (jour, mois et année) et d'indiquer si la date est correcte ou non
+          </p>
+        </section>
+        <section class="Demo">
+          <h4>Démo</h4>
+          <form>
+            <div id="input-user">
+              <div class="jour">
+                <label for="jours">Jour : </label>
+                <input required id="jour" type="number" />
+              </div>
+              <div class="mois">
+                <label for="mois">Mois : </label>
+                <input required id="mois" type="number" />
+              </div>
+              <div class="Annee">
+                <label for="Annee">Année:</label>
+                <input required id="annee" type="number" />
+              </div>
+            </div>
+            <button id="valid-btn">Valider</button>
+          </form>
+          <div id="result">
+            <p id="output"></p>
+          </div>
+        </section>
+        <section class="code-source">
+          <h4>Code Source</h4>
+          <img src="./sc/conditions.png" alt="">
+        </section>
+      </main>
+    <script src="./conditions.js"></script>
+  </body>
+</html>

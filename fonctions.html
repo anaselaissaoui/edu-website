@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/f06fa41670.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fonctions.css">
+    <title>EDULAB</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="variables.html">Variables et affectation</a></li>
+          <li><a href="conditions.html">Conditions</a></li>
+          <li class="boucle"><a>Boucle<i class="fa-solid fa-caret-down"></i></a>
+            <ul class="drop-down">
+              <li><a href="for-loop.html">Boucle for</a></li>
+              <li><a href="while.html">Boucle while</a></li>
+              <li><a href="imbriquées.html">Boucles imbriquées</a></li>
+            </ul>
+          </li>
+
+          <li class="chaines"><a>Les chaines<i class="fa-solid fa-caret-down"></i></a>
+            <ul class="drop-down">
+              <li><a href="recherche.html">Recherche et Suppression</a></li>
+              <li><a href="voyelles.html">Nombre de voyelles</a></li>
+            </ul>
+          </li>
+          
+          <li class="Tableaux"><a>Les Tableaux<i class="fa-solid fa-caret-down"></i></a>
+            <ul class="drop-down">
+              <li><a href="tri.html">Tri </a></li>
+              <li><a href="tab-recherche.html">Recherche</a></li>
+            </ul>
+          </li>
+          <li><a href="fonctions.html">Fonctions</a></li>
+        </ul>
+      </nav>
+  </header>
+    
+
+  <main>
+    <section class="Enonce">
+      <h2>Calculatrice</h2>
+      <h4>Enoncé</h4>
+      <p>
+        Créez 4 fonctions Javascript (Somme, Soustraction, Division, Multiplication). L’utilisateur saisie deux nombres dans deux inputs, choisi ensuite une opération arithmétique. Le résultat est donné par l’une des 4 fonctions Javascript. 
+      </p>
+    </section>
+    <section class="Demo">
+      <h4>Démo</h4>
+      <form>
+        <div>
+          <label>Entrer votre premier numero: </label>
+          <input id="fnum" type="number" pattern="[0-9]+" />
+          <label>Entrer votre deuxième numero: </label>
+          <input id="snum" type="number"  pattern="[0-9]+"/>
+
+        </div>
+        <button id="addition">+</button>
+        <button id="substraction">-</button>
+        <button id="multiplication">x</button>
+        <button id="division">/</button>
+
+        <p id="output"></p>
+
+      </form>
+      
+    </section>
+    <section class="code-source">
+      <h4>Code Source</h4>
+      <img src="./sc/fonctions.png" alt="">
+    </section>
+  </main>
+    <script src="./fonctions.js"></script>
+  </body>
+</html>
